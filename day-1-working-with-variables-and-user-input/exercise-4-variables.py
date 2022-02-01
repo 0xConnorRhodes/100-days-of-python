@@ -8,7 +8,9 @@ b = input("b: ")
 ####################################
 #Write your code below this line 👇
 
-
+tmp = a
+a = b
+b = a
 
 
 #Write your code above this line 👆

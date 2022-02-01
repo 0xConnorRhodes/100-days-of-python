@@ -4,3 +4,12 @@ two_digit_number = input("Type a two digit number: ")
 
 ####################################
 #Write your code below this line 👇
+
+
+digit1 = two_digit_number[0]
+
+digit2 = two_digit_number[1]
+
+answer = int(digit1) + int(digit2)
+
+print(answer)

@@ -6,6 +6,6 @@ city = input("What is the name of the city you grew up in?\n")
 
 pet = input("What kind of pet did you have as a child?\n")
 
-print("city is " + city)
+band_name = city + pet
 
-print("pet is " + pet)
+print("band is " + band_name)

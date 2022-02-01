@@ -10,7 +10,7 @@ b = input("b: ")
 
 tmp = a
 a = b
-b = a
+b = tmp
 
 
 #Write your code above this line 👆

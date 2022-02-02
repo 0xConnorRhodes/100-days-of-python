@@ -10,7 +10,7 @@ split_amt = int(input("How many people will split the bill? "))
 
 total_amt = bill_amt + (bill_amt * tip_pct)
 
-individual_amt = total_amt / split_amt
+individual_amt = round(total_amt / split_amt, 2)
 
 print(f"The total amount is {total_amt}.")
 

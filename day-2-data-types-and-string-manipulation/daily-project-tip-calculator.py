@@ -8,7 +8,7 @@ tip_pct = float(input("What percentage tip would you like to give? ")) / 100
 
 split_amt = int(input("How many people will split the bill? "))
 
-total_amt = bill_amt + (bill_amt * tip_pct)
+total_amt = round(bill_amt + (bill_amt * tip_pct), 2)
 
 individual_amt = round(total_amt / split_amt, 2)
 

@@ -12,6 +12,12 @@ total_amt = round(bill_amt + (bill_amt * tip_pct), 2)
 
 individual_amt = round(total_amt / split_amt, 2)
 
-print(f"The total amount is {total_amt}.")
+print(f"The total amount is ${total_amt}.")
 
 print(f"Each person should pay ${individual_amt}.")
+
+
+# optional more condensed answer, written for a challenge
+#answer = round((bill_amt + (bill_amt * tip_pct)) / split_amt, 2)
+
+#print(f"Each person should pay ${answer}.")

@@ -12,7 +12,7 @@ I started this course on January 31st 2022 and began uploading my code to this r
 ## Progress
 
 - [x] day 1
-- [-] day 2
+- [x] day 2
 - [ ] day 3
 - [ ] day 4
 - [ ] day 5

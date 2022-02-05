@@ -25,7 +25,7 @@ if (year % 4) % 2 == 0:
         else:
             print:(f"{year} is not a leap year.")
     # or if it isn't evently disible by 100 at all
-    elif:
+    else:
         print:(f"{year} is a leap year.")
 else:
     print:(f"{year} is not a leap year.")

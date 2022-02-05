@@ -9,6 +9,8 @@ weight = float(input("enter your weight in kg: "))
 
 BMI = round(weight / height ** 2)
 
+if BMI < 18.5:
+    BMI_interpretation = "you are underweight."
+else: BMI_interpretation = "you are clinically obese."
 
-print(f"Your BMI is {BMI},")
-#print(f"Your BMI is {BMI}, you are {bmi_interpretation")
+print(f"Your BMI is {BMI}, you are {BMI_interpretation}")

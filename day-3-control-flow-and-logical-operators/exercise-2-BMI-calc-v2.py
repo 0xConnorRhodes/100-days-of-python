@@ -11,11 +11,11 @@ BMI = round(weight / height ** 2)
 
 if BMI < 18.5:
     BMI_interpretation = "underweight"
-elif: BMI < 25:
+elif BMI < 25:
     BMI_interpretation = "normal weight"
-elif: BMI < 30:
+elif BMI < 30:
     BMI_interpretation = "slightly overweight"
-elif: BMI < 35:
+elif BMI < 35:
     BMI_interpretation = "obese"
 else:
     BMI_interpretation = "clinically obese"

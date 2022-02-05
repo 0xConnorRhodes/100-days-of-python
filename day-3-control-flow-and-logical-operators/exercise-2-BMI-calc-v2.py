@@ -7,9 +7,6 @@ weight = float(input("enter your weight in kg: "))
 
 #Write your code below this line 👇
 
-height = float(input("enter your height in m: "))
-weight = float(input("enter your weight in kg: "))
-
 BMI = round(weight / height ** 2)
 
 

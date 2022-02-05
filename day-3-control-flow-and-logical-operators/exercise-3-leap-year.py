@@ -21,12 +21,12 @@ if year % 4 == 0:
         # check if it's also evenly divisible by 400.
         # if so, it is a leap year
         if year % 400 == 0:
-            print(f"{year} is a leap year.")
+            print(f"Leap year.")
         # but if not, it isn't a leap year
         else:
-            print(f"{year} is not a leap year.")
+            print(f"Not a leap year.")
     # or if it isn't evently disible by 100 at all
     else:
-        print(f"{year} is a leap year.")
+        print(f"Leap year.")
 else:
-    print(f"{year} is not a leap year.")
+    print(f"Not a leap year")

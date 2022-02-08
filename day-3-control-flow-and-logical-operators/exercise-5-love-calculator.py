@@ -30,4 +30,9 @@ love_count = (
 # concat numbers together and convert back to an int to remove leading zeroes
 compatibility = int(str(true_count) + str(love_count))
 
-print(f"You are {compatibility}% compatible.")
+if compatibility < 10 or compatibility > 90:
+    print(f"Your score is {compatibility}, you go together like coke and mentos.")
+elif compatibility >=40 or compatibility <= 50:
+    print(f"Your score is {compatibility}, you are alright together.")
+else:
+    print("Your score is {compatibility}.")

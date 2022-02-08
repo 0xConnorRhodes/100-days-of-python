@@ -10,6 +10,8 @@ name2 = input("What is their name? \n")
 name_pair = name1 + name2
 
 # count for the letters of true in both names
+# lower() makes the names all lowercase to make counting accurate
+# count() counts the tumber of occurances of each letter, and reports as an integer.
 true_count = (
         name_pair.lower().count("t") 
         + name_pair.lower().count("r") 

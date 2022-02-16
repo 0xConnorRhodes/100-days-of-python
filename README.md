@@ -14,7 +14,7 @@ I started this course on January 31st 2022 and began uploading my code to this r
 - [x] day 1
 - [x] day 2
 - [x] day 3
-- [ ] day 4
+- [-] day 4
 - [ ] day 5
 - [ ] day 6
 - [ ] day 7

@@ -53,7 +53,7 @@ elif choice3 == "blue":
     print("Behind the door is a bottomless pit which you fall into. You fall continuously until you die of dysentery.")
     exit()
 elif choice3 == "yellow":
-    print("You have won.")
+    print("You found the treasure chest! It's full of antibiotics.")
     exit()
 else:
     print("Unknown choice.")

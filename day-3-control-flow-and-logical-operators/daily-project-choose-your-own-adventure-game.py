@@ -25,20 +25,20 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 print("Welcome to Treasure Island!")
 print("Your mission is to find the treasure.")
 
-choice1 = input('You\'re at a cross road. Where would you like to go? Type "left" or "right" ')
+choice1 = input('You\'re at a cross road. Where would you like to go? Type "left" or "right" ').lower()
 
 
 if choice1 == "right":
     print("You got lost and died of dysentery.")
     exit()
 else:
-    choice2 = input('You come to a lake. There is an island in the middle of the lake. Type "wait" to wait for a boat. Type "swim" to swim across. ')
+    choice2 = input('You come to a lake. There is an island in the middle of the lake. Type "wait" to wait for a boat. Type "swim" to swim across. ').lower()
 
 if choice2 == "swim":
     print("You have drowned and died of dysentery.")
     exit()
 else:
-    choice3 = input('The boat takes you across the lake to a house. Inside the house there are three doors. Choose which door to open. Type "red", "blue", or "yellow." ')
+    choice3 = input('The boat takes you across the lake to a house. Inside the house there are three doors. Choose which door to open. Type "red", "blue", or "yellow." ').lower()
 
 if choice3 == "red":
     print("Behind the door is a monster which holds you prisoner until you die of dysentery.")

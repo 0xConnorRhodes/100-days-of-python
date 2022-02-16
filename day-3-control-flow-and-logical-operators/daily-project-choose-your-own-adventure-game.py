@@ -31,14 +31,20 @@ choice1 = input('You\'re at a cross road. Where would you like to go? Type "left
 if choice1 == "right":
     print("You got lost and died of dysentery.")
     exit()
-else:
+elif choice1 == "left":
     choice2 = input('You come to a lake. There is an island in the middle of the lake. Type "wait" to wait for a boat. Type "swim" to swim across. ').lower()
+else:
+    print("Unknown choice.")
+    exit()
 
 if choice2 == "swim":
     print("You have drowned and died of dysentery.")
     exit()
-else:
+elif choice2 == "wait":
     choice3 = input('The boat takes you across the lake to a house. Inside the house there are three doors. Choose which door to open. Type "red", "blue", or "yellow." ').lower()
+else:
+    print("Unknown choice.")
+    exit()
 
 if choice3 == "red":
     print("Behind the door is a monster which holds you prisoner until you die of dysentery.")
@@ -46,8 +52,11 @@ if choice3 == "red":
 elif choice3 == "blue":
     print("Behind the door is a bottomless pit which you fall into. You fall continuously until you die of dysentery.")
     exit()
-else:
+elif choice3 == "yellow":
     print("You have won.")
+    exit()
+else:
+    print("Unknown choice.")
     exit()
 
 

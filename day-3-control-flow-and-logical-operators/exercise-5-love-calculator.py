@@ -32,7 +32,7 @@ compatibility = int(str(true_count) + str(love_count))
 
 if compatibility < 10 or compatibility > 90:
     print(f"Your score is {compatibility}, you go together like coke and mentos.")
-elif compatibility >=40 or compatibility <= 50:
+elif compatibility >=40 and compatibility <= 50:
     print(f"Your score is {compatibility}, you are alright together.")
 else:
-    print("Your score is {compatibility}.")
+    print(f"Your score is {compatibility}.")

@@ -58,6 +58,3 @@ elif choice3 == "yellow":
 else:
     print("Unknown choice.")
     exit()
-
-
-

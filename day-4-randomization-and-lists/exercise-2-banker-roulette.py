@@ -15,6 +15,7 @@ names = names_string.split(", ")
 
 number_of_people = len(names)
 
+# Here was my first off by one error.
 winner = names[random.randint(0, number_of_people - 1)]
 
 print(f"{winner} is going to buy the meal today!")

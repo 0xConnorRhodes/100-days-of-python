@@ -11,11 +11,9 @@ position = input("Where do you want to put the treasure? ")
 
 #Write your code below this row 👇
 
-split_position = position.split(",")
+row_to_use = int(position[1])
 
-row_to_use = int(split_position[1])
-
-column_to_use = int(split_position[0])
+column_to_use = int(position[0])
 
 map[row_to_use - 1][column_to_use - 1] = "X"
 

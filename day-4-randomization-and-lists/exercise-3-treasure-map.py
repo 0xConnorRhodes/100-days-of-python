@@ -15,8 +15,9 @@ split_position = position.split(",")
 
 row_to_use = int(split_position[1])
 
-print(map[row_to_use - 1])
+column_to_use = int(split_position[0])
 
+map[row_to_use - 1][column_to_use - 1] = "X"
 
 #Write your code above this row 👆
 

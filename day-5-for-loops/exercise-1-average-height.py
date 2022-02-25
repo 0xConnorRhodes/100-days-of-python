@@ -9,4 +9,6 @@ for n in range(0, len(student_heights)):
 
 #Write your code below this row 👇
 
+# NOTE: for each item in list, set var to += the list and then divide var by the number of items in the list
 
+print(len(student_heights))

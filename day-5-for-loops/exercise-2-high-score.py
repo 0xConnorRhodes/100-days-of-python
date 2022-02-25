@@ -10,3 +10,6 @@ print(student_scores)
 #Write your code below this row 👇
 
 
+
+
+#print(f"The highest score in the class is: {high_score}")

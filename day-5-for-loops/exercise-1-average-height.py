@@ -9,18 +9,13 @@ for n in range(0, len(student_heights)):
 
 #Write your code below this row 👇
 
-# NOTE: for each item in list, set var to += the list and then divide var by the number of items in the list
-
-
 total_height = 0
 
 for height in student_heights:
     total_height += height
 
-print(total_height)
+number_of_students = len(student_heights)
 
-#number_of_students len(student_heights)
+avg_height = total_height / number_of_students
 
-#avg_height = total_heights / number_of_students
-
-#print(avg_height)
+print(round(avg_height))

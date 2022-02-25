@@ -11,4 +11,16 @@ for n in range(0, len(student_heights)):
 
 # NOTE: for each item in list, set var to += the list and then divide var by the number of items in the list
 
-print(len(student_heights))
+
+total_height = 0
+
+for height in student_heights:
+    total_height += height
+
+print(total_height)
+
+#number_of_students len(student_heights)
+
+#avg_height = total_heights / number_of_students
+
+#print(avg_height)

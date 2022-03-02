@@ -9,7 +9,17 @@ print(student_scores)
 
 #Write your code below this row 👇
 
+list_items = len(student_scores)
 
+# NOTE:for each number of item in the list, check if it is greater than other numbers
+for n in range (0, len(student_scores)):
+    item_to_check = student_scores[n]
+    print(item_to_check)
+
+
+#print(list_items)
+
+#for item in student_scores:
 
 
 #print(f"The highest score in the class is: {high_score}")
